@@ -1,0 +1,11 @@
+name: Test reusable workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-shared:
+  # owner/repo/.github/workflows/file.yml@ref
+    uses: AnnaGregusova/shared-gha-test/.github/workflows/hello.yml@main
+    with:
+      who: Anna
