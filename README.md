@@ -1,2 +1,2 @@
-# central-gha-test
-central template
+# consumer-gha-test
+consumer template
